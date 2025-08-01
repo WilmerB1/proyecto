@@ -23,9 +23,7 @@ from nltk.probability import FreqDist
 # Definimos un texto en español que queramos analizar
 
 texto = """
-¿Cómo funciona la IA?
-Las Inteligencias artificiales utilizan algoritmos y modelos matemáticos para procesar grandes cantidades de datos y tomar decisiones basadas en patrones y reglas establecidas a través del aprendizaje automático, que es la capacidad de una máquina para aprender de forma autónoma a partir de datos sin ser programada específicamente para hacerlo. De esta manera la IA puede mejorar su precisión y eficiencia con el tiempo.
-Espero que esta información sobre la IA sea de gran apoyo para su formación y aprendizaje.
+Soy ingeniero industrial, con formación integral en análisis de procesos, gestion de proyectos, atencion al cliente y mejora continua, enfocado en la optimización de sistemas organizacionales bajo principios de eficiencia operativa y sostenibilidad.	
 """
 # Tokenización: Convertimos el texto en una lista de palabras individuales
 palabras = word_tokenize(texto, language= 'spanish')
